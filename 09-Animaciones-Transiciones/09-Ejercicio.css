@@ -1,0 +1,11 @@
+
+.btn-modern{
+
+    transition: 400ms;
+}
+.btn-modern:hover{
+    transform: translateY(-5px);
+    box-shadow: inset;
+    background-color: greenyellow;
+    color: turquoise;
+}

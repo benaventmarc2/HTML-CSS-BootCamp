@@ -1,0 +1,11 @@
+#elemento-1{
+    color: red;
+}
+ul li:first-child
+{
+    font-size: 2rem;
+}
+/*Viendo el resultado en github seria*/
+ul li#elemento-1{
+    font-size: 2rem;
+}

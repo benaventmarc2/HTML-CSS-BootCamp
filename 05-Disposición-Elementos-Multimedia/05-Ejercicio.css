@@ -1,0 +1,11 @@
+.galery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.galery img {
+  /*Pongo 400, el ejercicio ponia 300px pero 
+    no se puede ver la parte de flex-wrap por el 
+    tamaño de las imagenes 
+    de este modo se puede apreciar el formato*/
+  width: 400px;
+}

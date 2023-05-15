@@ -1,0 +1,64 @@
+.padre {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+.hijo {
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  animation: traslation 2s forwards alternate infinite ease-in-out;  
+}
+.padre:hover .hijo {
+  /*transform: translateX(100%);
+  background-color: green;*/
+  animation-play-state: paused;
+}
+/*Es mas divertida la forma de abajo pero, 
+segun el ejercicio propuesto, 
+seria asi ->
+@keyframes traslation{
+    0%{
+        background-color: brown;
+        transform: translateX(0%);    
+    }
+    25%{
+        background-color: brown;
+        transform: translateX(100%) translateY(0%);
+    }
+    50%{
+        background-color: brown;
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        background-color: darkgoldenrod;
+        transform: translateX(0%) translateY(100%);
+    }
+    100%{
+        background-color: brown;
+        transform: translateX(0%) translateY(0%);
+    }    
+}
+*/
+@keyframes traslation {
+  0% {
+    background-color: brown;
+    transform: translateX(0%);
+  }
+  25% {
+    background-color: brown;
+    transform: translateX(0%) translateY(100%);
+  }
+  50% {
+    background-color: brown;
+    transform: translateX(100%) translateY(0%);
+  }
+  75% {
+    background-color: darkgoldenrod;
+    transform: translateX(100%) translateY(100%);
+  }
+  100% {
+    background-color: brown;
+    transform: translateX(0%) translateY(0%);
+  }
+}

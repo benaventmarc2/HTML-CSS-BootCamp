@@ -1,0 +1,37 @@
+h1{
+    color:darkorange;
+    font-size: 30pt;
+}
+/*Estoy probando colores y fuentes*/
+p{
+    color: blue;
+}
+/*Acceder a los selectores de id*/
+#primera-noticia
+{
+    color: aqua;
+    font-size: 12px;
+}
+#segunda-noticia
+{
+    color: darkseagreen;
+}
+/*Acceder a los selectores de clase*/
+.encabezado
+{
+    font-size: 24pt;
+    text-transform: uppercase;
+    color: darkcyan;
+}
+/*Referencia Universal*/
+*.warning
+{
+    color: red;
+    font-size: 100px;
+}
+/*Seleccionar multiples classes a la vez*/
+.autor, .fecha, .ubicacion
+{
+    text-decoration: underline;
+    font-size: 50pt;
+}

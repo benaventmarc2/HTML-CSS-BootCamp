@@ -1,0 +1,35 @@
+/*Estilos para colores*/
+.colores {
+  color: red;
+}
+.color-hexadecimal {
+  color: #252627;
+}
+.color-rgb {
+  color: rgb(185, 187, 93);
+}
+.color-rgba {
+  color: rgba(30, 40, 50, 0.5);
+}
+/*Fondos*/
+.fondo {
+  background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
+  background-position: center, center;
+}
+/*Tamaños*/
+.alto {
+  background-color: aquamarine;
+  height: 100pt;
+}
+.ancho {
+  background-color: yellowgreen;
+  width: 100pt;
+}
+.tarjeta{
+    border-style: solid;
+    color: rgb(150, 150, 150);
+    border-width: 10pt;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin: 10px 20px;
+}

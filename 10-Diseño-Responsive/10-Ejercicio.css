@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+}
+.contenedor-1 {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.item {
+  padding: 1rem;
+}
+.contenedor-2 {
+  flex-grow: 1;
+  padding: 2rem;
+  background-color: blue;
+}
+@media (max-width: 640px) {
+  .contenedor-1 {
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+  }
+}
